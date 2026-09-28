@@ -32,12 +32,30 @@ The project is built as a learning-focused security utility for exploring how we
 Clone the repository:
 
 ```bash
+git clone https://github.com/hassanshajjat/sentinel-security-header-analyzer.git
+cd sentinel-security-header-analyzer
+```
+
+Install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ---
 
 ## 04 / USAGE
 
-Run the analyzer with:
+Run the analyzer:
 
 ```bash
-python sentinel.py https://example.comgit clone https://github.com/hassanshajjat/sentinel-security-header-analyzer.git
-cd sentinel-security-header-analyzer
+python sentinel.py https://example.com
+```
+
+Custom timeout:
+
+```bash
+python sentinel.py https://example.com --timeout 15
+```
+
+The tool checks common HTTP security headers and generates a weighted security score.
