@@ -32,5 +32,12 @@ The project is built as a learning-focused security utility for exploring how we
 Clone the repository:
 
 ```bash
-git clone https://github.com/hassanshajjat/sentinel-security-header-analyzer.git
+---
+
+## 04 / USAGE
+
+Run the analyzer with:
+
+```bash
+python sentinel.py https://example.comgit clone https://github.com/hassanshajjat/sentinel-security-header-analyzer.git
 cd sentinel-security-header-analyzer
